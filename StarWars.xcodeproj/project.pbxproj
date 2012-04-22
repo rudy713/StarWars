@@ -18,6 +18,9 @@
 		6C7A7DD01544493300E2D682 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7A7DCF1544493300E2D682 /* AVFoundation.framework */; };
 		6C7A83A415445B0D00E2D682 /* Star_Wars_Logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83A315445B0D00E2D682 /* Star_Wars_Logo3.png */; };
 		6C7A83A615445DED00E2D682 /* Star_Wars_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83A515445DED00E2D682 /* Star_Wars_Logo.png */; };
+		6C7A83B1154484BC00E2D682 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83AF154484BC00E2D682 /* Default.png */; };
+		6C7A83B2154484BC00E2D682 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83B0154484BC00E2D682 /* Icon.png */; };
+		6C7A83B5154487A500E2D682 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C7A83B4154487A500E2D682 /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		6C7A7DCF1544493300E2D682 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6C7A83A315445B0D00E2D682 /* Star_Wars_Logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_Wars_Logo3.png; sourceTree = "<group>"; };
 		6C7A83A515445DED00E2D682 /* Star_Wars_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Star_Wars_Logo.png; sourceTree = "<group>"; };
+		6C7A83AF154484BC00E2D682 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6C7A83B0154484BC00E2D682 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		6C7A83B4154487A500E2D682 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 		6C7A7DB415443B5B00E2D682 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6C7A83B4154487A500E2D682 /* Icon@2x.png */,
+				6C7A83B0154484BC00E2D682 /* Icon.png */,
+				6C7A83AF154484BC00E2D682 /* Default.png */,
 				6C7A83A515445DED00E2D682 /* Star_Wars_Logo.png */,
 				6C7A83A315445B0D00E2D682 /* Star_Wars_Logo3.png */,
 				6C7A7DB515443B5B00E2D682 /* StarWars-Info.plist */,
@@ -164,6 +173,9 @@
 				6C7A7DCE154447E200E2D682 /* imperial.mp3 in Resources */,
 				6C7A83A415445B0D00E2D682 /* Star_Wars_Logo3.png in Resources */,
 				6C7A83A615445DED00E2D682 /* Star_Wars_Logo.png in Resources */,
+				6C7A83B1154484BC00E2D682 /* Default.png in Resources */,
+				6C7A83B2154484BC00E2D682 /* Icon.png in Resources */,
+				6C7A83B5154487A500E2D682 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +292,7 @@
 				6C7A7DC315443B5B00E2D682 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
